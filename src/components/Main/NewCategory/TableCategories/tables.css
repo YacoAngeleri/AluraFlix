@@ -1,0 +1,85 @@
+.color{
+    background-color: rgb(102, 102, 102);
+    color: white;
+    width: 87%;
+    margin: 1em;
+    padding: 0.5em;
+    text-align: left;
+  }
+  .color label{
+    margin-right: 1em;
+  }
+  .table{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+  }
+  div table {
+    border: 2px solid #2a7ae4;
+    color: white;
+    margin: 0 5em 2em 5em;
+    width: 100%;
+
+  }
+  .titles {
+    border: 2px solid #2a7ae4;
+  }
+  th {
+    border: 2px solid #2a7ae4;
+    font-weight: 500;
+    font-size: 1.3em;
+    text-align: left;
+    padding: .2em .2em .2em .4em;
+  }
+  td {
+      padding: .5em 4em .5em .4em;
+    background-color: rgb(27, 27, 27);
+    text-align: left;
+  }
+  td button{
+      background-color: transparent;
+      color: white;
+      border: transparent;
+      cursor: pointer;
+  }
+  .bordeTd{
+      border-left: 3px solid black;
+      border-right: 3px solid black;
+      border-bottom: 3px solid black
+  }
+  
+  @media screen and (max-width: 1250px) {
+    .color{
+      width: 86%;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    th{
+      padding: .2em .1em;
+      font-size: 1.2em;
+    }
+    td{
+      padding: .5em .1em;
+      font-size: .9em;
+    }
+    .color{
+      width: 84%;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .color{
+      width: 82%;
+    }
+  }
+  @media screen and (max-width: 440px) {
+    .color{
+      width: 79%;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .color{
+      width: 77%;
+    }
+  }

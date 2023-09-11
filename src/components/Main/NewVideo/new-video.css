@@ -1,0 +1,99 @@
+::placeholder {
+    color: white;
+}
+.error{
+    border-top: 2px solid red;
+    color: red;
+    margin: .5em 1em;
+    padding: 0.2em 0.5em;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+    margin: 1em;
+}
+.btn-1{
+    position: absolute;
+    left: 5em;
+}
+.btn-2{
+    position: absolute;
+    left: 15em;
+}
+.btn-3{
+    position: absolute;
+    right: 5em;
+}
+
+@media screen and (max-width: 650px) {
+    .btn-1{
+        position: absolute;
+        left: 4em;
+    }
+    .btn-2{
+        position: absolute;
+        left: 13em;
+    }
+    .btn-3{
+        position: absolute;
+        right: 4em;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .btn-1{
+        position: absolute;
+        left: 3em;
+    }
+    .btn-2{
+        position: absolute;
+        left: 12em;
+    }
+    .btn-3{
+        position: absolute;
+        right: 3em;
+    }
+  }
+  @media screen and (max-width: 438px) {
+    .btn-1{
+        position: absolute;
+        left: 2.7em;
+    }
+    .btn-2{
+        position: absolute;
+        left: 10.5em;
+    }
+    .btn-3{
+        position: absolute;
+        right: 2.7em;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .btn-1{
+        position: absolute;
+        left: 2.3em;
+    }
+    .btn-2{
+        position: absolute;
+        left: 9em;
+    }
+    .btn-3{
+        position: absolute;
+        right: 2.3em;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .btn-1{
+        position: absolute;
+        left: 2.3em;
+    }
+    .btn-2{
+        position: absolute;
+        left: 7.8em;
+    }
+    .btn-3{
+        position: absolute;
+        right: 2.3em;
+    }
+  }
