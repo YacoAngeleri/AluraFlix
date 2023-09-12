@@ -17,7 +17,7 @@ width: 8em;
 const Footer = () => {
     return (
       <StyledFooter>
-        <Link to="/"><Logo src={LogoMain} alt="Logo Aluraflix" /></Link>
+        <Link to="AluraFlix/"><Logo src={LogoMain} alt="Logo Aluraflix" /></Link>
       </StyledFooter>
     );
   };

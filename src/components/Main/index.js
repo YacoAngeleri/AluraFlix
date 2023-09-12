@@ -144,12 +144,12 @@ const Main = () => {
 
   return (
     <Routes>
-      <Route path="/" element={<Sections datos={categorias}
+      <Route path="AluraFlix/" element={<Sections datos={categorias}
             key={categorias.titulo}
             videos={videos}
             eliminarVideo={eliminarVideo}/>} />
     <Route
-          path="/form"
+          path="/AluraFlix/form"
           element={
             <Form
               datos={categorias}
@@ -159,7 +159,7 @@ const Main = () => {
           }
         />
         <Route
-          path="/category"
+          path="/AluraFlix/category"
           element={
             <FormCategory
               registrarCategoria={registrarCategoria}

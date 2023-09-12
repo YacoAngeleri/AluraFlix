@@ -62,13 +62,20 @@ const Form = (props) => {
   const onSubmit = (evento) => {
     console.log("Evento enviado:", evento);
     let datosAEnviar = evento;
-    registrarVideo(datosAEnviar)
+    registrarVideo(datosAEnviar);
+    handleReset()
   };
 
   const handleReset = () => {
     Array.from(document.querySelectorAll("input")).forEach(
       input => (input.value = "")
     ); 
+    Array.from(document.querySelectorAll("textarea")).forEach(
+      (input) => (input.value = "")
+    );
+    Array.from(document.querySelectorAll("select")).forEach(
+      (input) => (input.value = "")
+    );
   };
   return (
     <StyledForm onSubmit={handleSubmit(onSubmit)}>
@@ -213,7 +220,7 @@ const Form = (props) => {
             Limpiar
           </Boton>
         </div>
-        <Link to="/category"><Boton variant="blue" border="blue" className="btn-3">
+        <Link to="/AluraFlix/category"><Boton variant="blue" border="blue" className="btn-3">
           Nueva categoria
         </Boton></Link>
       </StyledBotones>

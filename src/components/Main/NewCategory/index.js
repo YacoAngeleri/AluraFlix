@@ -45,6 +45,7 @@ const FormCategory = (props) => {
     console.log(evento);
     let datosCategoria = evento;
     registrarCategoria(datosCategoria);
+    handleReset()
   };
 
   const handleReset = () => {

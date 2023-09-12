@@ -26,9 +26,9 @@ width: 8em;
 const Header = () => {
     return (
       <StyledHeader>  
-        <Link to="/"><Logo src={LogoMain} alt="Logo" /></Link>
+        <Link to="AluraFlix/"><Logo src={LogoMain} alt="Logo" /></Link>
         <div>
-          <Link to="/form"><Boton>Nuevo video</Boton></Link>
+          <Link to="/AluraFlix/form"><Boton>Nuevo video</Boton></Link>
         </div>
       </StyledHeader>
     );
